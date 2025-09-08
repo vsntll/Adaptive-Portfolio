@@ -18,7 +18,7 @@ type Portfolio struct {
 // Mock portfolio data (replace with real data or DB as needed)
 var mockPortfolio = Portfolio{
     Name:        "Avie Vasantlal",
-    Title:       "Software Engineer",
+    Title:       "Embedded Systems Hardware Engineer",
     Skills:      []string{"Go", "React", "C", "JavaScript"},
     Projects:    []string{"Adaptive-Portfolio", "Other Project"},
     Description: "Dynamic portfolio site powered by Go backend and React frontend.",
