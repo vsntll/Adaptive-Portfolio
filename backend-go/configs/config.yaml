@@ -1,0 +1,36 @@
+webdriver:
+  chromedriver_path: "/usr/local/bin/chromedriver"  # Update this path to your ChromeDriver location
+  headless: true
+  window_size: "1920,1080"
+  port: 9515
+  timeout_seconds: 30
+
+linkedin:
+  email: "your-email@example.com"      # Replace with your LinkedIn email
+  password: "your-password"            # Replace with your LinkedIn password
+  base_url: "https://www.linkedin.com"
+  login_url: "https://www.linkedin.com/login"
+
+export:
+  output_dir: "data/output"
+  format: "csv"  # Options: csv, json, both
+
+delays:
+  min_delay: "2s"
+  max_delay: "5s"
+  page_load_delay: "3s"
+  element_search_delay: "10s"
+  scroll_delay: "500ms"
+
+logging:
+  level: "info"
+  file_path: "logs/scraper.log"
+  console: true
+
+user_agents:
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0"
+  - "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0"
